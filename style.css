@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_abuelo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container_padre{
+    display: flex;
+    padding: 1%;
+    gap: 16px;
+    border: solid 2px #08e;
+    border-radius: 2%;
+    list-style: none;
+    background-color: #08e2;
+}
+img{
+    border-radius: 2%;
+}
